@@ -3,11 +3,12 @@ import { FadeIn } from "@/components/fade";
 import { Icon } from "@/components/icon";
 import { Links } from "@/components/links";
 import { Works } from "@/components/works";
+import Foot from "@/components/footer";
 
 export default function Home() {
   return (
     <>
-      <div className="flex flex-col items-center justify-center min-h-screen py-2 bg-slate-900 text-white ">
+      <div className="flex flex-col items-center justify-center min-h-screen py-2 bg-slate-800 text-white ">
         <FadeIn>
           <Icon />
         </FadeIn>
@@ -18,6 +19,7 @@ export default function Home() {
           <Works /> 
         </FadeIn>
       </div>
+      <Foot />
     </>
   );
 }
