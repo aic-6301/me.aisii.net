@@ -33,7 +33,7 @@ export default function Pictures(picture: Picutres) {
                 </ConfirmLink>
             </div> : <div className="m-8"></div>}
             </div>
-            <p className="flex font-sans text-xs items-end justify-end">追加日時:{picture.added_date.toLocaleDateString()}</p>
+            <p className="flex font-sans text-xs items-end justify-end text-gray-400">追加日時:{picture.added_date.toLocaleDateString()}</p>
         </div>
     );
 }
