@@ -1,3 +1,5 @@
+"use client";
+
 import { AboutMe } from "@/components/aboutme";
 import { FadeIn } from "@/components/fade";
 import { Icon } from "@/components/icon";

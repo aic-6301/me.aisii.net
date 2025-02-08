@@ -1,3 +1,6 @@
+"use client";
+
+
 import Picture from "@/components/pictures";
 import Foot from "@/components/footer";
 

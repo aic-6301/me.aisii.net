@@ -28,7 +28,7 @@ export default function Pictures(picture: Picutres) {
             {picture.place ? 
             <div className="flex justify-center items-center text-lg font-mono font-semibold gap-4 mb-2">
                 <ConfirmLink href={`https://www.google.com/maps/search/?api=1&query=${picture.place}`} >
-                <div className="flex items-center font-thin text-sm"><MapPin />撮影場所(クリックで開く)</div>
+                <div className="flex items-center font-thin text-sm"><MapPin size={20} />撮影場所(クリックで開く)</div>
                     {picture.place}
                 </ConfirmLink>
             </div> : <div className="m-8"></div>}
