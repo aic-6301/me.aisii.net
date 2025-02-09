@@ -10,7 +10,7 @@ import Foot from "@/components/footer";
 export default function Home() {
   return (
     <>
-      <div className="flex flex-col items-center justify-center min-h-screen py-2 bg-slate-800 text-white ">
+      <div className="flex flex-col items-center justify-center min-h-screen py-2 bg-slate-800 text-white border-8">
         <FadeIn>
           <Icon />
         </FadeIn>

@@ -1,6 +1,5 @@
 "use client";
 
-
 import Picture from "@/components/pictures";
 import Foot from "@/components/footer";
 
@@ -31,12 +30,15 @@ export default function Page() {
     ]
     return (
         <>
-            <div className="border-8 p-5 flex flex-wrap justify-center bg-slate-800">
+            <div className=" p-5 justify-center border-8 bg-slate-800">
+                <p className="flex font-bold font-mono text-4xl text-white items-center justify-center p-5">Pictures</p>
+                <div className="flex flex-wrap justify-center">
                 {pics.map((pic, index) => (
                 <div key={index} className="aspect-w-1 aspect-h-1">
                     <Picture {...pic} />
                 </div>
                 ))}
+                </div>
             </div>
             <Foot />
         </>
