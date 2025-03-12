@@ -39,7 +39,7 @@ export const Links = () => {
                         </button>
                     </div>
                 </ConfirmLink>
-                <ConfirmLink href='https://discord.com/user/964887498436276305'>
+                <ConfirmLink href='https://twitter.com/AIC_6301'>
                     <div className='flex outline outline-2 outline-blue-400 px-5 py-2 rounded-xl hover:bg-blue-400 hover:text-white duration-200 hover:ease-out' >
                         <button className='flex justify-center items-center gap-4'>
                             <Image src='twitter.svg' alt='Twitter' width={32} height={32} className='items-start' />
@@ -47,11 +47,11 @@ export const Links = () => {
                         </button>
                     </div>
                 </ConfirmLink>
-                <ConfirmLink href='https://幼女.art/@aicy'>
-                    <div className='flex outline outline-2 outline-red-600 px-5 py-2 rounded-xl hover:bg-red-600 hover:text-white duration-200 hover:ease-out'>
+                <ConfirmLink href='https://twitch.com/aic6301'>
+                    <div className='flex outline outline-2 outline-purple-400 px-5 py-2 rounded-xl hover:bg-purple-400 hover:text-white duration-200 hover:ease-out' >
                         <button className='flex justify-center items-center gap-4'>
-                            <Image src='youtube.svg' alt='Youtube' width={32} height={32} className='flex items-center justify-center' />
-                            <span className='flex text-2xl'>Youtube</span>
+                            <Image src='twitch.svg' alt='Twitch' width={32} height={32} className='items-start' />
+                            <span className='flex text-2xl'>Twitch</span>
                         </button>
                     </div>
                 </ConfirmLink>

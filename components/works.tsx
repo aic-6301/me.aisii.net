@@ -6,6 +6,7 @@ import ConfirmLink from './confirmlink';
 export const Works = () => {
     const [works] = useState([
         { title: 'LightCity', description: 'FiveMサーバー', link: 'https://lightcity.notion.site' },
+        { title: 'OceanCity', description: 'FiveMサーバー', link: 'https://oceancity.notion.site' },
     ]);
 
     return (
