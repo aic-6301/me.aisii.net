@@ -23,8 +23,8 @@ export default function Pictures(picture: Picutres) {
                 className="object-cover w-[250px] h-[250px]"
                 unoptimized
             />
-            <div className="text-2xl font-mono font-bold gap-4">{picture.title ? picture.title : 'No Title'}</div>
-            <div className="text-lg font-mono font-medium gap-4">{picture.description ? picture.description : 'No Description Added.'}</div>
+            <div className="text-2xl font-mono font-bold gap-4 text-center">{picture.title ? picture.title : 'No Title'}</div>
+            <div className="text-lg font-mono font-medium gap-4 w-[250px] break-words text-center">{picture.description ? picture.description : 'No Description Added.'}</div>
             {picture.place ? 
             <div className="flex justify-center items-center text-lg font-mono font-semibold gap-4 mb-2">
                 <ConfirmLink href={`https://www.google.com/maps/search/?api=1&query=${picture.place}`} >
