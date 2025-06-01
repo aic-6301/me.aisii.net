@@ -5,11 +5,11 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'photos.aisii.net',
+        hostname: 'frog.aisii.net',
         port: '',
         pathname: '/**' as const,
         search: '',
-      },
+      }
     ],
   },
   /* config options here */
