@@ -1,6 +1,8 @@
 import Image from 'next/image';
 import { ConfirmLink } from './confirmlink';
 
+import { FaAmazon } from "react-icons/fa";
+
 export const Links = () => {
     return (
         <>
@@ -52,6 +54,16 @@ export const Links = () => {
                         <button className='flex justify-center items-center gap-4'>
                             <Image src='twitch.svg' alt='Twitch' width={32} height={32} className='items-start' />
                             <span className='flex text-2xl'>Twitch</span>
+                        </button>
+                    </div>
+                </ConfirmLink>
+            </div>
+            <div className="flex flex-wrap items-center justify-center gap-4 py-2 mx-12 md:mx-4">
+                                <ConfirmLink href='https://www.amazon.jp/hz/wishlist/ls/24QX0WCSAQT1P?ref_=wl_share'>
+                    <div className='flex outline outline-2 outline-amber-800 px-5 py-2 rounded-xl hover:bg-amber-800 hover:text-white duration-200 hover:ease-out'>
+                        <button className='flex justify-center items-center gap-4'>
+                            <FaAmazon className='w-8 h-8' />
+                            <span className='flex text-2xl'>欲し芋</span>
                         </button>
                     </div>
                 </ConfirmLink>
