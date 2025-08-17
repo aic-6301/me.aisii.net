@@ -78,5 +78,13 @@ export const pics = [
         { title: '', description: '', added_date: new Date('2025-06-01'), url: 'https://frog.aisii.net/2025-6-1/DSC06260.JPG', place: '竹島' },
         { title: '', description: '', added_date: new Date('2025-06-01'), url: 'https://frog.aisii.net/2025-6-1/DSC06270.JPG', place: '蒲郡駅周辺' },
 
+        { title: '', description: '', added_date: new Date('2025-08-17'), url: 'https://frog.aisii.net/2025-07-13/DSC04627.JPG', place: '愛知牧場' },
+        { title: 'ひつじ', description: 'Sheeeep', added_date: new Date('2025-08-17'), url: 'https://frog.aisii.net/2025-07-13/DSC04657.JPG', place: '愛知牧場' },
+        { title: 'うま', description: 'Horrrse', added_date: new Date('2025-08-17'), url: 'https://frog.aisii.net/2025-07-13/DSC04787.JPG', place: '愛知牧場' },
+
+        { title: 'ドローンショー#1', description: 'ちゃんとうごいてた', added_date: new Date('2025-08-17'), url: 'https://frog.aisii.net/2025-08-16/20250816_193107.jpg', place: '刈谷総合運動公園' },
+        { title: 'ドローンショー#2', description: '', added_date: new Date('2025-08-17'), url: 'https://frog.aisii.net/2025-08-16/20250816_193331.jpg', place: '刈谷総合運動公園' },
+        { title: '花火', description: '', added_date: new Date('2025-08-17'), url: 'https://frog.aisii.net/2025-08-16/20250816_200554.jpg', place: '刈谷総合運動公園' },
+
     ]
 export default pics;
